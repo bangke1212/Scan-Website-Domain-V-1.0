@@ -1,4 +1,4 @@
-# ��� CryptoGuard — Scam & Risk Analyzer
+# 🛡️ CryptoGuard — Scam & Risk Analyzer
 
 A browser-based tool that analyzes cryptocurrency tokens, contract addresses, and websites to assess their risk level and identify potential red flags for scams.
 
@@ -11,21 +11,32 @@ npm run dev
 
 ## ✨ Features
 
-- __Smart Input Detection__ — Auto-detects contract addresses (EVM & Solana), website URLs, transaction hashes, and token names
-- __Risk Scoring (0-100)__ — Four tiers: Low → Medium → High → Critical
-- __30+ Heuristic Checks__ — Typosquat detection, phishing keywords, suspicious TLDs, burn address patterns, vanity patterns, entropy analysis
-- __Scan History__ — Track all past scans locally
-- __Dark US__ — Clean, security-focused dark theme
+- **Smart Input Detection** — Auto-detects contract addresses (EVM & Solana), website URLs, transaction hashes, and token names
+- **Risk Scoring (0-100)** — Four tiers: Low → Medium → High → Critical
+- **30+ Heuristic Checks** — Typosquat detection, phishing keywords, suspicious TLDs, burn address patterns, vanity patterns, entropy analysis
+- **Scan History** — Track past scans locally in your browser
+- **Dark UI** — Clean, security-focused dark theme
 
-## ➜ Security
+## 🔒 Security
 
 This tool runs entirely in your browser. No data is sent to any server.
 
-## 🛧️ Built With
+## 🛠️ Built With
 
 - React + Vite
 - Lucide Icons
 - Pure CSS (no framework)
+
+## 🚢 Deploy to Vercel
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/bangke1212/Scan-Website-Domain-V-1.0)
+
+Or manually:
+
+1. Go to [vercel.com/new](https://vercel.com/new)
+2. Import `bangke1212/Scan-Website-Domain-V-1.0`
+3. Vercel auto-detects Vite — no config needed
+4. Click **Deploy**
 
 ## ⚠️ Disclaimer
 
